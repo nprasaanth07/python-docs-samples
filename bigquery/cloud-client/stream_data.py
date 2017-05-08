@@ -62,7 +62,7 @@ if __name__ == '__main__':
         help='The row to load into BigQuery as an array in JSON format.')
 
     args = parser.parse_args()
-
+ 
     stream_data(
         args.dataset_name,
         args.table_name,
